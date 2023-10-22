@@ -4,7 +4,7 @@ Banking is a bank application design that shows various information about custom
 ## Instal
 Banking website can run locally on your machine. Please download this repository and open it using Visual Studio Code. Then, execute the following commands in the terminal.
 ```sh
-cd food-recipe-fe-react
+cd Banking
 npm i
 npm start
 ```
