@@ -12,4 +12,9 @@
   .Sidebar{
     display: none;
   }
+  .menuDown{
+    /* flex-direction: column;
+    align-content:space-evenly; */
+    /* width: 100vh; */
+  }
 }

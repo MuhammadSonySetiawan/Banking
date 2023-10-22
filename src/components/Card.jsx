@@ -13,8 +13,18 @@ function myCard() {
           backgroundColor: "#ffffff",
         }}
       >
-        <h3>My Card </h3>
-        <div id="carouselExampleIndicators" className="carousel slide">
+        <h3
+          style={{
+            fontWeight: 600,
+            fontSize: "20px",
+            lineHeight: "24.38px",
+            color: "#064061",
+          }}
+        >
+          My Card{" "}
+        </h3>
+        <div id="carouselExampleIndicators" className="carousel slide mt-4">
+          {/* Card */}
           <div className="carousel-inner">
             <div className="carousel-item active">
               {/* 1 */}
@@ -32,8 +42,27 @@ function myCard() {
               >
                 <div className="d-flex justify-content-between d-flex align-items-center">
                   <div className="d-flex flex-column">
-                    <label style={{ color: "#ffffff" }}>Name card</label>
-                    <label style={{ color: "#ffffff" }}>Syah bandi</label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "19.5px",
+                        marginBottom: "8px",
+                      }}
+                    >
+                      Name card
+                    </label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 500,
+                        fontSize: "20px",
+                        lineHeight: "24.38px",
+                      }}
+                    >
+                      Syah bandi
+                    </label>
                   </div>
                   <BsImage
                     style={{
@@ -43,12 +72,32 @@ function myCard() {
                     }}
                   />
                 </div>
-                <div className="d-flex justify-content-end">
+                <div
+                  className="d-flex justify-content-end "
+                  style={{ marginTop: "100px" }}
+                >
                   <div className="d-flex flex-column ">
-                    <label style={{ color: "#ffffff" }}>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 600,
+                        fontSize: "24px",
+                        lineHeight: "29.26px",
+                        marginBottom: "6px",
+                      }}
+                    >
                       0918 8124 0042 8129
                     </label>
-                    <label style={{ color: "#ffffff" }}>12/20 - 124</label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "19.5px",
+                      }}
+                    >
+                      12/20 - 124
+                    </label>
                   </div>
                 </div>
               </div>
@@ -69,8 +118,27 @@ function myCard() {
               >
                 <div className="d-flex justify-content-between d-flex align-items-center">
                   <div className="d-flex flex-column">
-                    <label style={{ color: "#ffffff" }}>Name card</label>
-                    <label style={{ color: "#ffffff" }}>Syah bandi</label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "19.5px",
+                        marginBottom: "8px",
+                      }}
+                    >
+                      Name card
+                    </label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 500,
+                        fontSize: "20px",
+                        lineHeight: "24.38px",
+                      }}
+                    >
+                      Syah bandi
+                    </label>
                   </div>
                   <BsImage
                     style={{
@@ -80,12 +148,32 @@ function myCard() {
                     }}
                   />
                 </div>
-                <div className="d-flex justify-content-end">
+                <div
+                  className="d-flex justify-content-end "
+                  style={{ marginTop: "100px" }}
+                >
                   <div className="d-flex flex-column ">
-                    <label style={{ color: "#ffffff" }}>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 600,
+                        fontSize: "24px",
+                        lineHeight: "29.26px",
+                        marginBottom: "6px",
+                      }}
+                    >
                       0918 8124 0042 8129
                     </label>
-                    <label style={{ color: "#ffffff" }}>12/20 - 124</label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "19.5px",
+                      }}
+                    >
+                      12/20 - 124
+                    </label>
                   </div>
                 </div>
               </div>
@@ -106,8 +194,27 @@ function myCard() {
               >
                 <div className="d-flex justify-content-between d-flex align-items-center">
                   <div className="d-flex flex-column">
-                    <label style={{ color: "#ffffff" }}>Name card</label>
-                    <label style={{ color: "#ffffff" }}>Syah bandi</label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "19.5px",
+                        marginBottom: "8px",
+                      }}
+                    >
+                      Name card
+                    </label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 500,
+                        fontSize: "20px",
+                        lineHeight: "24.38px",
+                      }}
+                    >
+                      Syah bandi
+                    </label>
                   </div>
                   <BsImage
                     style={{
@@ -117,12 +224,32 @@ function myCard() {
                     }}
                   />
                 </div>
-                <div className="d-flex justify-content-end">
+                <div
+                  className="d-flex justify-content-end "
+                  style={{ marginTop: "100px" }}
+                >
                   <div className="d-flex flex-column ">
-                    <label style={{ color: "#ffffff" }}>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 600,
+                        fontSize: "24px",
+                        lineHeight: "29.26px",
+                        marginBottom: "6px",
+                      }}
+                    >
                       0918 8124 0042 8129
                     </label>
-                    <label style={{ color: "#ffffff" }}>12/20 - 124</label>
+                    <label
+                      style={{
+                        color: "#ffffff",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "19.5px",
+                      }}
+                    >
+                      12/20 - 124
+                    </label>
                   </div>
                 </div>
               </div>
@@ -164,8 +291,26 @@ function myCard() {
 
         <div>
           <div className="d-flex justify-content-between">
-            <h5>Transaction History</h5>
-            <label style={{ color: "#4EB7F2" }}>See all</label>
+            <h5
+              style={{
+                fontWeight: 600,
+                fontSize: "20px",
+                lineHeight: "24.38px",
+                color: "#064061",
+              }}
+            >
+              Transaction History
+            </h5>
+            <label
+              style={{
+                color: "#4EB7F2",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
+            >
+              See all
+            </label>
           </div>
           <div
             style={{
@@ -173,7 +318,16 @@ function myCard() {
               height: "294px",
             }}
           >
-            <p style={{ color: "#AAAAAA" }}>13 April 2022</p>
+            <p
+              style={{
+                color: "#AAAAAA",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
+            >
+              13 April 2022
+            </p>
             <div
               style={{
                 width: "426px",
@@ -193,13 +347,36 @@ function myCard() {
                 <div>
                   <label
                     className="d-flex flex-column"
-                    style={{ color: "#064061" }}
+                    style={{
+                      color: "#064061",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
                   >
                     Cash Withdrawal
                   </label>
-                  <label style={{ color: "#AAAAAA" }}>13 Apr, 2022</label>
+                  <label
+                    style={{
+                      color: "#AAAAAA",
+                      fontWeight: 400,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
+                  >
+                    13 Apr, 2022
+                  </label>
                 </div>
-                <label style={{ color: "#F3735E" }}>$20,129</label>
+                <label
+                  style={{
+                    color: "#F3735E",
+                    fontWeight: 600,
+                    fontSize: "20px",
+                    lineHeight: "24.38px",
+                  }}
+                >
+                  $20,129
+                </label>
               </div>
 
               <div
@@ -215,15 +392,36 @@ function myCard() {
                 <div>
                   <label
                     className="d-flex flex-column"
-                    style={{ color: "#064061" }}
+                    style={{
+                      color: "#064061",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
                   >
                     Landing Page project
                   </label>
-                  <label style={{ color: "#AAAAAA" }}>
+                  <label
+                    style={{
+                      color: "#AAAAAA",
+                      fontWeight: 400,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
+                  >
                     13 Apr, 2022 at 3:30 PM
                   </label>
                 </div>
-                <label style={{ color: "#7DD97B" }}>$2,000</label>
+                <label
+                  style={{
+                    color: "#7DD97B",
+                    fontWeight: 600,
+                    fontSize: "20px",
+                    lineHeight: "24.38px",
+                  }}
+                >
+                  $2,000
+                </label>
               </div>
               <div
                 style={{
@@ -238,15 +436,36 @@ function myCard() {
                 <div>
                   <label
                     className="d-flex flex-column"
-                    style={{ color: "#064061" }}
+                    style={{
+                      color: "#064061",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
                   >
                     Juni Mobile App project
                   </label>
-                  <label style={{ color: "#AAAAAA" }}>
+                  <label
+                    style={{
+                      color: "#AAAAAA",
+                      fontWeight: 400,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
+                  >
                     13 Apr, 2022 at 3:30 PM
                   </label>
                 </div>
-                <label style={{ color: "#7DD97B" }}>$20,129</label>
+                <label
+                  style={{
+                    color: "#7DD97B",
+                    fontWeight: 600,
+                    fontSize: "20px",
+                    lineHeight: "24.38px",
+                  }}
+                >
+                  $20,129
+                </label>
               </div>
             </div>
           </div>

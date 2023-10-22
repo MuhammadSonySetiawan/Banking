@@ -21,7 +21,7 @@ function Home() {
         </div>
 
         {/* component My Card Components */}
-        <Card />
+        <Card className="Card" />
       </div>
     </div>
   );

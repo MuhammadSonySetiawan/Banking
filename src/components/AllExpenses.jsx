@@ -6,7 +6,7 @@ import { HiChevronRight } from "react-icons/hi";
 function AllExpenses() {
   return (
     <>
-      <div
+      <div 
         style={{
           width: "604px",
           height: "320px",
@@ -17,7 +17,15 @@ function AllExpenses() {
         }}
       >
         <div className="d-flex flex-row justify-content-between">
-          <label>All Expenses</label>
+          <label
+            style={{
+              fontSize: "20px",
+              fontWeight: 600,
+              lineHeight: "24.38px",
+            }}
+          >
+            All Expenses
+          </label>
 
           <div className="dropdown">
             <button
@@ -25,14 +33,22 @@ function AllExpenses() {
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-              style={{ borderColor: "#F1F1F1" }}
+              style={{
+                width: "134px",
+                height: "48px",
+                borderRadius: "12px",
+                borderColor: "#F1F1F1",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
             >
               Monthly <BsChevronDown />
             </button>
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="#">
-                  january
+                  January
                 </a>
               </li>
               <li>
@@ -94,8 +110,8 @@ function AllExpenses() {
           </div>
         </div>
 
-        <div>
-          <div className="d-flex flex-row justify-content-between mt-3">
+        
+          <div className="d-flex flex-wrap justify-content-between mt-3 menuDown">
             {/* menu 1*/}
             <div
               style={{
@@ -130,10 +146,36 @@ function AllExpenses() {
 
               <div style={{ gap: "16px", color: "#FFFFFF", gap: "12px" }}>
                 <div style={{}}>
-                  <h4 style={{ fontSize: "16px" }}>Balance</h4>
-                  <label style={{ fontSize: "14px" }}>April 2022</label>
+                  <h4
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                    }}
+                  >
+                    Balance
+                  </h4>
+                  <label
+                    style={{
+                      fontSize: "14px",
+                      fontWeight: 400,
+                      lineHeight: "17.07px",
+                    }}
+                  >
+                    April 2022
+                  </label>
                 </div>
-                <h5>$20,129</h5>
+                <label
+                  style={{
+                    fontWeight: 600,
+                    fontSize: "24px",
+                    lineHeight: "29.26px",
+                    marginTop: "8px",
+                  }}
+                >
+                  $20,129
+                </label>
               </div>
             </div>
 
@@ -171,13 +213,40 @@ function AllExpenses() {
               </div>
 
               <div style={{ gap: "16px", color: "#FFFFFF", gap: "12px" }}>
-                <div style={{}}>
-                  <h4 style={{ fontSize: "16px", color: "#064061" }}>Income</h4>
-                  <label style={{ fontSize: "14px", color: "#AAAAAA" }}>
+                <div>
+                  <h4
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                      color: "#064061",
+                    }}
+                  >
+                    Income
+                  </h4>
+                  <label
+                    style={{
+                      fontSize: "14px",
+                      fontWeight: 400,
+                      lineHeight: "17.07px",
+                      color: "#AAAAAA",
+                    }}
+                  >
                     April 2022
                   </label>
                 </div>
-                <h5 style={{ color: "#4EB7F2" }}>$20,129</h5>
+                <h5
+                  style={{
+                    color: "#4EB7F2",
+                    fontWeight: 600,
+                    fontSize: "24px",
+                    lineHeight: "29.26px",
+                    marginTop: "8px",
+                  }}
+                >
+                  $20,129
+                </h5>
               </div>
             </div>
 
@@ -215,18 +284,43 @@ function AllExpenses() {
               </div>
 
               <div style={{ gap: "16px", color: "#FFFFFF", gap: "12px" }}>
-                <div style={{}}>
-                  <h4 style={{ fontSize: "16px", color: "#064061" }}>
+                <div>
+                  <h4
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                      lineHeight: "19.5px",
+                      color: "#064061",
+                    }}
+                  >
                     Expenses
                   </h4>
-                  <label style={{ fontSize: "14px", color: "#AAAAAA" }}>
+                  <label
+                    style={{
+                      fontSize: "14px",
+                      fontWeight: 400,
+                      lineHeight: "17.07px",
+                      color: "#AAAAAA",
+                    }}
+                  >
                     April 2022
                   </label>
                 </div>
-                <h5 style={{ color: "#4EB7F2" }}>$20,129</h5>
+                <h5
+                  style={{
+                    color: "#4EB7F2",
+                    fontWeight: 600,
+                    fontSize: "24px",
+                    lineHeight: "29.26px",
+                    marginTop: "8px",
+                  }}
+                >
+                  $20,129
+                </h5>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </>

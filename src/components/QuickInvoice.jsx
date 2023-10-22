@@ -15,17 +15,45 @@ function QuickInvoice() {
           padding: "24px",
         }}
       >
-        <div className="d-flex justify-content-between">
-          <h3 color="#064061">Quick Invoice</h3>
-          <BsPlusLg style={{ color: "#4EB7F2" }} />
+        <div className="d-flex justify-content-between d-flex align-items-center">
+          <h3
+            style={{
+              color: "#064061",
+              fontWeight: 600,
+              fontSize: "20px",
+              lineHeight: "24.38px",
+            }}
+          >
+            Quick Invoice
+          </h3>
+          <div
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              width: "48px",
+              height: "48px",
+              backgroundColor: "#FAFAFA",
+              borderRadius: "50%",
+            }}
+          >
+            <BsPlusLg style={{ color: "#4EB7F2" }} />
+          </div>
         </div>
 
         <div>
-          <h5 color="#064061">Latest Transaction</h5>
-          <div className="d-flex scrollmenu">
+          <h5
+            style={{
+              color: "#064061",
+              fontWeight: 500,
+              fontSize: "16px",
+              lineHeight: "19.5px",
+            }}
+          >
+            Latest Transaction
+          </h5>
+          <div className="d-flex scrollmenu mb-4">
             {/* slide contact 1  */}
             <div
-              className="d-flex me-3"
+              className="d-flex me-3 align-items-center"
               style={{
                 backgroundColor: "#FAFAFA",
                 width: "224px",
@@ -35,24 +63,32 @@ function QuickInvoice() {
               }}
             >
               <img src="Frame1.png" style={{ width: "48px", height: "48px" }} />
-              <div className="d-flex flex-column ms-2">
+              <div className="d-flex flex-column ms-2 ">
                 <label
                   style={{
                     color: "#064061",
-                    fontWeight: "bold",
+                    fontWeight: 600,
                     fontSize: "16px",
+                    lineHeight: "19.5px",
                   }}
                 >
                   Madrani Andi
                 </label>
-                <label style={{ color: "#AAAAAA", fontSize: "12px" }}>
+                <label
+                  style={{
+                    color: "#AAAAAA",
+                    fontSize: "12px",
+                    fontWeight: 400,
+                    lineHeight: "14.63px",
+                  }}
+                >
                   Madraniadi20@gmail
                 </label>
               </div>
             </div>
             {/* slide contact 2 */}
             <div
-              className="d-flex me-3"
+              className="d-flex me-3 align-items-center"
               style={{
                 backgroundColor: "#FAFAFA",
                 width: "224px",
@@ -66,20 +102,28 @@ function QuickInvoice() {
                 <label
                   style={{
                     color: "#064061",
-                    fontWeight: "bold",
+                    fontWeight: 600,
                     fontSize: "16px",
+                    lineHeight: "19.5px",
                   }}
                 >
                   Madrani Andi
                 </label>
-                <label style={{ color: "#AAAAAA", fontSize: "12px" }}>
+                <label
+                  style={{
+                    color: "#AAAAAA",
+                    fontSize: "12px",
+                    fontWeight: 400,
+                    lineHeight: "14.63px",
+                  }}
+                >
                   Madraniadi20@gmail
                 </label>
               </div>
             </div>
             {/* slide contact 3 */}
             <div
-              className="d-flex me-3"
+              className="d-flex me-3 align-items-center"
               style={{
                 backgroundColor: "#FAFAFA",
                 width: "224px",
@@ -93,13 +137,21 @@ function QuickInvoice() {
                 <label
                   style={{
                     color: "#064061",
-                    fontWeight: "bold",
+                    fontWeight: 600,
                     fontSize: "16px",
+                    lineHeight: "19.5px",
                   }}
                 >
                   Madrani Andi
                 </label>
-                <label style={{ color: "#AAAAAA", fontSize: "12px" }}>
+                <label
+                  style={{
+                    color: "#AAAAAA",
+                    fontSize: "12px",
+                    fontWeight: 400,
+                    lineHeight: "14.63px",
+                  }}
+                >
                   Madraniadi20@gmail
                 </label>
               </div>
@@ -126,7 +178,14 @@ function QuickInvoice() {
                 >
                   Madrani Andi
                 </label>
-                <label style={{ color: "#AAAAAA", fontSize: "12px" }}>
+                <label
+                  style={{
+                    color: "#AAAAAA",
+                    fontSize: "12px",
+                    fontWeight: 400,
+                    lineHeight: "14.63px",
+                  }}
+                >
                   Madraniadi20@gmail
                 </label>
               </div>
@@ -147,13 +206,21 @@ function QuickInvoice() {
                 <label
                   style={{
                     color: "#064061",
-                    fontWeight: "bold",
+                    fontWeight: 600,
                     fontSize: "16px",
+                    lineHeight: "19.5px",
                   }}
                 >
                   Madrani Andi
                 </label>
-                <label style={{ color: "#AAAAAA", fontSize: "12px" }}>
+                <label
+                  style={{
+                    color: "#AAAAAA",
+                    fontSize: "12px",
+                    fontWeight: 400,
+                    lineHeight: "14.63px",
+                  }}
+                >
                   Madraniadi20@gmail
                 </label>
               </div>
@@ -164,11 +231,19 @@ function QuickInvoice() {
         </div>
 
         <div
-          className="d-flex justify-content-between"
+          className="d-flex justify-content-between mt-4"
           style={{ width: "556px", height: "92px" }}
         >
           <div>
-            <label className="mb-2" style={{ color: "#064061" }}>
+            <label
+              className="mb-2"
+              style={{
+                color: "#064061",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
+            >
               Customer name
             </label>
             <input
@@ -185,7 +260,15 @@ function QuickInvoice() {
             />
           </div>
           <div>
-            <label className="mb-2" style={{ color: "#064061" }}>
+            <label
+              className="mb-2"
+              style={{
+                color: "#064061",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
+            >
               Customer Email
             </label>
             <input
@@ -204,11 +287,19 @@ function QuickInvoice() {
         </div>
 
         <div
-          className="d-flex justify-content-between mb-3"
+          className="d-flex justify-content-between mt-3 mb-3"
           style={{ width: "556px", height: "92px" }}
         >
           <div>
-            <label className="mb-2" style={{ color: "#064061" }}>
+            <label
+              className="mb-2"
+              style={{
+                color: "#064061",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
+            >
               Item name
             </label>
             <input
@@ -225,7 +316,15 @@ function QuickInvoice() {
             />
           </div>
           <div>
-            <label className="mb-2" style={{ color: "#064061" }}>
+            <label
+              className="mb-2"
+              style={{
+                color: "#064061",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "19.5px",
+              }}
+            >
               Item mount
             </label>
 
@@ -264,92 +363,11 @@ function QuickInvoice() {
                 }}
               />
             </div>
-            {/* <div className="dropdown">
-                  <button
-                    className="btn "
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    style={{
-                      width: "270px",
-                      height: "60px",
-                      borderRadius: "12px",
-                      padding: "20px",
-                      backgroundColor: "#FAFAFA",
-                      borderWidth: 0,
-                      textAlign: "start",
-                      color: "#AAAAAA",
-                    }}
-                  >
-                    USD <BsChevronDown />
-                  </button>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        USD
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        February
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        March
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        April
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        May
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        June
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        July
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        August
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        September
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        October
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        November
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        December
-                      </a>
-                    </li>
-                  </ul>
-                </div> */}
+
           </div>
         </div>
 
-        <div
+        <div className='mt-3'
           style={{
             width: "556px",
             height: "62px",
@@ -362,6 +380,9 @@ function QuickInvoice() {
               borderRadius: "12px",
               padding: "20px",
               color: "#4EB7F2",
+              fontWeight:600,
+              fontSize:"18px",
+              lineHeight:"21.94px",
               border: 0,
               backgroundColor: "#FFFFFF",
             }}
@@ -376,6 +397,9 @@ function QuickInvoice() {
               borderRadius: "12px",
               padding: "20px",
               color: "#FFFFFF",
+              fontWeight:600,
+              fontSize:"18px",
+              lineHeight:"21.94px",
               border: 0,
               backgroundColor: "#4EB7F2",
             }}

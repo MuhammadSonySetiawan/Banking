@@ -65,30 +65,38 @@ function Sidebar() {
         </div>
 
         <div
-          className="d-flex align-items-center "
           style={{
-            height: "48px",
-            width: "232px",
-            borderRight: "3.27px solid #4EB7F2",
-            margin: "20px",
+            width: "280px",
+            height: "88px",
+            padding: "20px 20px 20px 5px",
           }}
         >
-          <img
-            src="category.png"
-            className="me-2"
-            style={{ fontSize: "19.5px", color: "#4EB7F2" }}
-          />
-          <label
+          <div
+            className="d-flex align-items-center "
             style={{
-              color: "#4EB7F2",
-              fontSize: "19.5px",
-              fontWeight: "700",
-              lineHeight: "19.5px",
-              fontSize:"16px"
+              height: "48px",
+              width: "232px",
+              borderRight: "3.27px solid #4EB7F2",
+              margin: "20px",
             }}
           >
-            Dashboard
-          </label>
+            <img
+              src="category.png"
+              className="me-2"
+              style={{ fontSize: "19.5px", color: "#4EB7F2" }}
+            />
+            <label
+              style={{
+                color: "#4EB7F2",
+                fontSize: "19.5px",
+                fontWeight: "700",
+                lineHeight: "19.5px",
+                fontSize: "16px",
+              }}
+            >
+              Dashboard
+            </label>
+          </div>
         </div>
       </div>
     </>
