@@ -21,7 +21,7 @@ function myCard() {
             color: "#064061",
           }}
         >
-          My Card{" "}
+          My Card
         </h3>
         <div id="carouselExampleIndicators" className="carousel slide mt-4">
           {/* Card */}
@@ -307,6 +307,7 @@ function myCard() {
                 fontWeight: 500,
                 fontSize: "16px",
                 lineHeight: "19.5px",
+                cursor: "pointer",
               }}
             >
               See all

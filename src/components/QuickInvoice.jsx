@@ -29,13 +29,13 @@ function QuickInvoice() {
           <div
             className="d-flex align-items-center justify-content-center"
             style={{
-              width: "48px",
-              height: "48px",
+              // width: "48px",
+              // height: "48px",
               backgroundColor: "#FAFAFA",
               borderRadius: "50%",
             }}
           >
-            <BsPlusLg style={{ color: "#4EB7F2" }} />
+            <BsPlusLg style={{ color: "#4EB7F2", cursor: "pointer" }} />
           </div>
         </div>
 
@@ -60,16 +60,18 @@ function QuickInvoice() {
                 height: "72",
                 padding: "12px",
                 borderRadius: "8px",
+                cursor: "pointer",
               }}
             >
               <img src="Frame1.png" style={{ width: "48px", height: "48px" }} />
-              <div className="d-flex flex-column ms-2 ">
+              <div className="d-flex flex-column ms-2">
                 <label
                   style={{
                     color: "#064061",
                     fontWeight: 600,
                     fontSize: "16px",
                     lineHeight: "19.5px",
+                    cursor: "pointer",
                   }}
                 >
                   Madrani Andi
@@ -80,6 +82,7 @@ function QuickInvoice() {
                     fontSize: "12px",
                     fontWeight: 400,
                     lineHeight: "14.63px",
+                    cursor: "pointer",
                   }}
                 >
                   Madraniadi20@gmail
@@ -95,6 +98,7 @@ function QuickInvoice() {
                 height: "72",
                 padding: "12px",
                 borderRadius: "8px",
+                cursor: "pointer",
               }}
             >
               <img src="Frame2.png" style={{ width: "48px", height: "48px" }} />
@@ -105,6 +109,7 @@ function QuickInvoice() {
                     fontWeight: 600,
                     fontSize: "16px",
                     lineHeight: "19.5px",
+                    cursor: "pointer",
                   }}
                 >
                   Madrani Andi
@@ -115,6 +120,7 @@ function QuickInvoice() {
                     fontSize: "12px",
                     fontWeight: 400,
                     lineHeight: "14.63px",
+                    cursor: "pointer",
                   }}
                 >
                   Madraniadi20@gmail
@@ -130,6 +136,7 @@ function QuickInvoice() {
                 height: "72",
                 padding: "12px",
                 borderRadius: "8px",
+                cursor: "pointer",
               }}
             >
               <img src="Frame2.png" style={{ width: "48px", height: "48px" }} />
@@ -140,6 +147,7 @@ function QuickInvoice() {
                     fontWeight: 600,
                     fontSize: "16px",
                     lineHeight: "19.5px",
+                    cursor: "pointer",
                   }}
                 >
                   Madrani Andi
@@ -150,6 +158,7 @@ function QuickInvoice() {
                     fontSize: "12px",
                     fontWeight: 400,
                     lineHeight: "14.63px",
+                    cursor: "pointer",
                   }}
                 >
                   Madraniadi20@gmail
@@ -165,6 +174,7 @@ function QuickInvoice() {
                 height: "72",
                 padding: "12px",
                 borderRadius: "8px",
+                cursor: "pointer",
               }}
             >
               <img src="Frame2.png" style={{ width: "48px", height: "48px" }} />
@@ -174,6 +184,7 @@ function QuickInvoice() {
                     color: "#064061",
                     fontWeight: "bold",
                     fontSize: "16px",
+                    cursor: "pointer",
                   }}
                 >
                   Madrani Andi
@@ -184,6 +195,7 @@ function QuickInvoice() {
                     fontSize: "12px",
                     fontWeight: 400,
                     lineHeight: "14.63px",
+                    cursor: "pointer",
                   }}
                 >
                   Madraniadi20@gmail
@@ -199,6 +211,7 @@ function QuickInvoice() {
                 height: "72",
                 padding: "12px",
                 borderRadius: "8px",
+                cursor: "pointer",
               }}
             >
               <img src="Frame2.png" style={{ width: "48px", height: "48px" }} />
@@ -209,6 +222,7 @@ function QuickInvoice() {
                     fontWeight: 600,
                     fontSize: "16px",
                     lineHeight: "19.5px",
+                    cursor: "pointer",
                   }}
                 >
                   Madrani Andi
@@ -219,6 +233,7 @@ function QuickInvoice() {
                     fontSize: "12px",
                     fontWeight: 400,
                     lineHeight: "14.63px",
+                    cursor: "pointer",
                   }}
                 >
                   Madraniadi20@gmail
@@ -231,11 +246,16 @@ function QuickInvoice() {
         </div>
 
         <div
-          className="d-flex justify-content-between mt-4"
-          style={{ width: "556px", height: "92px" }}
+          className="d-flex justify-content-between mt-4 viewInputQuickInoice"
+          style={
+            {
+              // width: "556px",
+              // height: "92px"
+            }
+          }
         >
           <div>
-            <label
+            <p
               className="mb-2"
               style={{
                 color: "#064061",
@@ -245,7 +265,7 @@ function QuickInvoice() {
               }}
             >
               Customer name
-            </label>
+            </p>
             <input
               type="text"
               placeholder="Type customer name"
@@ -260,7 +280,7 @@ function QuickInvoice() {
             />
           </div>
           <div>
-            <label
+            <p
               className="mb-2"
               style={{
                 color: "#064061",
@@ -270,7 +290,7 @@ function QuickInvoice() {
               }}
             >
               Customer Email
-            </label>
+            </p>
             <input
               type="text"
               placeholder="Type customer email"
@@ -286,12 +306,9 @@ function QuickInvoice() {
           </div>
         </div>
 
-        <div
-          className="d-flex justify-content-between mt-3 mb-3"
-          style={{ width: "556px", height: "92px" }}
-        >
+        <div className="d-flex justify-content-between mt-3 mb-3 viewInputQuickInoice">
           <div>
-            <label
+            <p
               className="mb-2"
               style={{
                 color: "#064061",
@@ -301,7 +318,7 @@ function QuickInvoice() {
               }}
             >
               Item name
-            </label>
+            </p>
             <input
               type="text"
               placeholder="Type customer name"
@@ -316,7 +333,7 @@ function QuickInvoice() {
             />
           </div>
           <div>
-            <label
+            <p
               className="mb-2"
               style={{
                 color: "#064061",
@@ -326,7 +343,7 @@ function QuickInvoice() {
               }}
             >
               Item mount
-            </label>
+            </p>
 
             <div
               className="input-group"
@@ -334,11 +351,6 @@ function QuickInvoice() {
                 width: "270px",
                 height: "60px",
                 borderRadius: "12px",
-                // padding: "20px",
-                // backgroundColor: "#FAFAFA",
-                // borderWidth: 0,
-                // textAlign: "start",
-                // color: "#AAAAAA",
               }}
             >
               <select
@@ -363,16 +375,10 @@ function QuickInvoice() {
                 }}
               />
             </div>
-
           </div>
         </div>
 
-        <div className='mt-3'
-          style={{
-            width: "556px",
-            height: "62px",
-          }}
-        >
+        <div className="mt-3 d-flex viewInputQuickInoice" style={{}}>
           <button
             style={{
               width: "266px",
@@ -380,9 +386,9 @@ function QuickInvoice() {
               borderRadius: "12px",
               padding: "20px",
               color: "#4EB7F2",
-              fontWeight:600,
-              fontSize:"18px",
-              lineHeight:"21.94px",
+              fontWeight: 600,
+              fontSize: "18px",
+              lineHeight: "21.94px",
               border: 0,
               backgroundColor: "#FFFFFF",
             }}
@@ -397,9 +403,9 @@ function QuickInvoice() {
               borderRadius: "12px",
               padding: "20px",
               color: "#FFFFFF",
-              fontWeight:600,
-              fontSize:"18px",
-              lineHeight:"21.94px",
+              fontWeight: 600,
+              fontSize: "18px",
+              lineHeight: "21.94px",
               border: 0,
               backgroundColor: "#4EB7F2",
             }}

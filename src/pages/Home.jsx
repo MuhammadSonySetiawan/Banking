@@ -1,16 +1,18 @@
 import React from 'react';
+
 import Sidebar from '../components/Sidebar';
 import AllExpenses from '../components/AllExpenses';
 import QuickInvoice from "../components/QuickInvoice";
 import Card from '../components/Card';
 
 import '../styles/Home.css';
+
 function Home() {
   return (
     <div style={{ backgroundColor: "#f7f9fa" }}>
       <div className="d-flex flex-wrap modeHp">
         {/* component Sidebar */}
-        <Sidebar className="Sidebar" />
+        <Sidebar />
 
         <div>
           {/* component All Expenses Component */}
@@ -21,7 +23,7 @@ function Home() {
         </div>
 
         {/* component My Card Components */}
-        <Card className="Card" />
+        <Card />
       </div>
     </div>
   );

@@ -1,0 +1,12 @@
+ /* sidebar */
+  .viewSidebar{
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 500px) {
+  /* sidebar */
+  .viewSidebar{
+    width: 100vh;
+    flex-direction: column-reverse;
+  }
+}
